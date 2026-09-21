@@ -1,0 +1,70 @@
+/* Reset basic spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f8fb;
+    color: #222;
+    line-height: 1.6;
+    padding: 30px;
+    max-width: 1000px;
+    margin:auto;
+}
+
+/* Main tiltle brooo */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #003b71;
+    margin-bottom: 20px;
+}
+
+/* Section titles brooo btw if ur reding this, hi*/
+h3 {
+    color: #005a9c;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* paras */
+p {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+/* The one and only Airline list */
+ul {
+    background-color: white;
+    padding: 20px 20px 20px 45px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/*Airline images */
+img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/*Airline names */
+p {
+    text-align: center;
+    font-weight: bold;
+    color: #005a9c;
+}
+
+/* Image hover effectlets hope this works */
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
